@@ -2,8 +2,3 @@ module maybe-py (*)
 
 import maybe
 import root-py
-
-source Py from "maybe.py"
-    ( "morloc_fromMaybe" as require
-    , "morloc_isNull" as isNull
-    )
